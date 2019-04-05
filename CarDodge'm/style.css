@@ -1,0 +1,520 @@
+/*Style for whole web body*/
+@font-face {
+    font-family: "prstart";
+    src: url(fonts/prstart.ttf);
+}
+
+html {
+    background: url(images/background5.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    color: #fff;
+    font: 14px Helvetica, Arial, Sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+/*Style for main body of navigation*/
+
+div.container {
+    overflow: auto;
+    margin-left: 266px;
+    display: block;
+}
+
+#car {
+    e
+}
+
+#contactus {
+    float: center;
+    margin-left: 100px;
+}
+
+#navigationbar {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+#navigationbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navigationbar ul li {
+    display: inline;
+    margin-right: 3px;
+}
+
+#navigationbar ul li a {
+    background: #000000;
+    text-decoration: none;
+    padding: 10px 10px 6px 10px;
+    text-transform: uppercase;
+    border-left: 5px solid #ff6600;
+    border-top: 5px solid #ff6600;
+    border-right: 5px solid #ff6600;
+    background-color: #4c4c4c;
+}
+
+#navigationbar ul li.current_page_item a,
+#navigationbar ul li a:hover {
+    color: #000000;
+    border-left: 4px solid #ff6600;
+    border-top: 4px solid #ff6600;
+    border-right: 4px solid #ff6600;
+    background-color: #ff6600;
+}
+
+/*Style for Registernavbar*/
+#registerNavbar {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+#registerNavbar ul {
+    margin-left: 705px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#registerNavbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#registerNavbar ul li a {
+    background: #000000;
+    text-decoration: none;
+    padding: 10px 10px 6px 10px;
+    text-transform: uppercase;
+    border-left: 5px solid #ff6600;
+    border-top: 5px solid #ff6600;
+    border-right: 5px solid #ff6600;
+    background-color: #4c4c4c;
+}
+
+#registerNavbar ul li.current_page_item a, 
+#registerNavbar ul li a:hover {
+    color: #000000;
+    border-left: 4px solid #ff6600;
+    border-top: 4px solid #ff6600;
+    border-right: 4px solid #ff6600;
+    background-color: #ff6600;
+}
+
+
+#registeruser {
+    width: 60px;
+    margin-top: 130px;
+    margin-left: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#registeruser input {
+    margin-top: 2px;
+    background: #4c4c4c;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding: 3px;
+}
+#registeruser .btn-register{
+    padding: 5px;
+    width: 208px;
+    height: 30px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-size: 15px;
+}
+/*Style for snakecage (left casvas)*/
+#roadCage {
+    border: 3px solid #fff;
+    float: left;
+    width: 695px;
+    height: 495px;
+}
+#gameOver {
+    background-color: #000000;
+    float: left;
+    width: 695px;
+    height: 500px;
+}
+#gameTxt {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 193px;
+    margin-top: 90px;
+}
+#overTxt {
+    position: absolute;
+    margin: auto;
+    margin-left: 193px;
+    margin-top: 180px;
+}
+#restartImgButton {
+    position: absolute;
+    margin: auto;
+    margin-left: 284px;
+    margin-top: 345px;
+}
+#startGameWelcome {
+    background-color: #000000;
+    float: left;
+    width: 695px;
+    height: 500px;
+}
+#welcomeImgMsg {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 230px;
+    margin-top: 120px;
+}
+#pressStartImgMsg {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 150px;
+    margin-top: 190px;
+}
+#startImgButton {
+    position: absolute;
+    margin: auto;
+    margin-left: 260px;
+    margin-top: 300px;
+}
+#background {
+    background: url('images/roadAnim.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    float: left;
+}
+/*Style for yellow glow boarder*/
+#roadCageBoarder {
+    overflow: auto;
+    width: 1075px;
+    margin: 0 auto;
+    padding: 8px;
+    background: #ff6600;
+    margin-bottom: 200px;
+}
+#contentBoarder {
+    float: left;
+    display: block;
+    width: 705px;
+    height: 500px;
+    background: #000000;
+}
+/*Style for right canvas*/
+.logincanvas-right {
+    float: left;
+    margin-left: 8px;
+    width: 250px;
+    height: 500px;
+    background: #000000;
+}
+#login {
+    width: 190px;
+    margin-top: 66px;
+    margin-left: 117px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#login input {
+    background: #4c4c4c;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    padding: 3px;
+}
+#login .btn-login {
+    padding: 5px;
+    width: 208px;
+    height: 30px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-size: 15px;
+}
+#invalid_1 {
+    color: red;
+    position: absolute;
+    top: 0px;
+    margin-left: 200px;
+}
+#invalid_2 {
+    color: red;
+    position: absolute;
+    top: 23px;
+    left: 215px;
+}
+#invalid_3 {
+    color: red;
+    position: absolute;
+    top: 45px;
+    left: 245px;
+}
+#invalid_4 {
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+#invalid_5 {
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+#invalid_6 {
+    color: red;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+.socialMediaLinks {
+    float: left;
+    margin-left: 7px;
+    width: 105px;
+    height: 500px;
+    background: #000000;
+}
+#socialimages {
+    vertical-align: text-bottom;
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+#leaderboardttl {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#controllttl {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#press {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+#uparrow {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 180px;
+    margin-top: 70px;
+}
+#accelerateup {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+#press1 {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 210px;
+}
+#downarrow {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 205px;
+    margin-top: 170px;
+}
+#break {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 350px;
+    margin-top: 210px;
+}
+#press2 {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 305px;
+}
+#leftarrow {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 180px;
+    margin-top: 270px;
+}
+#steerleft {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 350px;
+    margin-top: 305px;
+}
+#press3 {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 400px;
+}
+#rightarrow {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 185px;
+    margin-top: 373px;
+}
+#steerright {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 350px;
+    margin-top: 400px;
+}
+#contactusttl {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+#emailttl {
+    margin-left: 60px;
+    margin-top: 150px;
+
+}
+#phonettl {
+    margin-left: 60px;
+    margin-top: 150;
+}
+#address1 {
+    margin-left: 60px;
+    margin-top: 150;
+}
+#address2 {
+    margin-left: 220px;
+    margin-top: 150;
+}
+#address3 {
+    margin-left: 220px;
+    margin-top: 150;
+}
+#address4 {
+    margin-left: 220px;
+    margin-top: 150;
+}
+#registerttl {
+    height: auto;
+    position: absolute;
+    margin: auto;
+    margin-left: 215px;
+    margin-top: 20px;
+}
+#socialMediaLinknav {
+    width: 910px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+#socialMediaLinknav ul {
+    margin-left: 900px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#socialMediaLinknav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+#socialMediaLinknav ul li a {
+    background: #000000;
+    text-decoration: none;
+    padding: 10px 10px 6px 10px;
+    text-transform: uppercase;
+    border-left: 5px solid #ff6600;
+    border-top: 5px solid #ff6600;
+    border-right: 5px solid #ff6600;
+    background-color: #4c4c4c;
+}
+#socialMediaLinknav ul li.current_page_item a,
+#socialMediaLinknav ul li a:hover {
+    color: #000000;
+    border-left: 4px solid #ff6600;
+    border-top: 4px solid #ff6600;
+    border-right: 4px solid #ff6600;
+    background-color: #ff6600;
+}
+#footer {
+    width: 960px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #fff;
+}
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer ul {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+#footer ul li {
+    display: inline;
+    margin-right: 5px;
+}
+#footer ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#footer ul li a:hover {
+    text-decoration: underline;
+}
+#footer p {
+    font-weight: bold;
+}
+/*\////////////////////////////////////////////////////////////////\*/
